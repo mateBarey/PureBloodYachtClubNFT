@@ -1,4 +1,4 @@
-from app import app, db
+from ..App import app, db
 from dotenv import load_dotenv
 load_dotenv()
 
