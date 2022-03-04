@@ -5,8 +5,7 @@ from config import Config
 import os, config
 from models import db
 from views.home import home
-from views.about import about 
-
+from views.register import register
 # create application instance
 
 
@@ -15,7 +14,8 @@ app.config.from_object(Config)
 db.init_app(app)
 
 app.register_blueprint(home)
-#app.register_blueprint(about)
+app.register_blueprint(register)
+
 Migrate(app, db)
 
 

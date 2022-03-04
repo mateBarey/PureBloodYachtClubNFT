@@ -1,4 +1,4 @@
-{% extends '../base.html' %}
+{% extends 'base.html' %}
 
 {% block content %}
 <div class = 'container'>
@@ -8,7 +8,7 @@
             
             </div>
           <div class="embed-responsive embed-responsive-4by3">
-            <iframe width="420" height="315" src="https://www.youtube.com/embed?v=rhirxE62rWs&ab_channel=TrentonGaddis" frameborder="0" allowfullscreen></iframe>
+            <iframe width="420" height="315" src="{{url_for('static',filename='Pure Blood Yacht Club NFT Promo Video.mp4')}}" frameborder="0" allowfullscreen></iframe>
 
           </div>
           <div class="card-body">
@@ -17,7 +17,7 @@
     </div>
     
     <div class="card" style="width: 18rem;">
-  <img src="https://media-exp1.licdn.com/dms/image/C4E12AQFOQ-Nkfa9IOA/article-cover_image-shrink_600_2000/0/1538417966868?e=1651708800&v=beta&t=85hu0Kf7fxSMWq9Z0NDShZCh5lHocnTaeTetRkqp9P4"     class="card-img-top" alt="...">
+  <img src="{{url_for('static',filename='sovereignIdentity.png')}}"     class="card-img-top" alt="...">
     <div class="card-body">
       <p class="card-text">What is Self-Sovereign Identity and Why do we need it on the Blockchain?.</p>
     </div>
