@@ -1,5 +1,64 @@
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PBY NFT</title>
+    <!----CSS link----->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='map.css') }}">
 
-{% block content %}
-    <h1>{% block title %} Welcome to FlaskBlog {% endblock %}</h1>
-{% endblock %}
+    <script src="https://use.fontawesome.com/431fcca6e4.js"></script>
+</head>
+
+
+
+  <body>
+    {% include 'navbar.html' %}
+    <div class="wrapper-flex">
+      <div class="container">
+        <h1 class="name">Q1 2021</h1>
+        <ul class "description">
+          <li class"list">CoinGecko listing</l>
+        <li class"list">CoinMarketCap listing</l>
+      <li class"list">Pure Blood Yacht Club meme competition</l>
+        <li class"list">Onboard more Pure Bloods & Pure Blood Yacht Club influencers</li>
+        
+          <span id="dots">...</span><span id="more">
+        
+          
+    </ul>
+    <button class="btn" oneclick"myFunction"()>Read More</button>
+      </div>
+  
+      <div class="container">
+         <h1 class="name">Q2 021</h1>
+        <ul class "description">
+          <li class"list">Multi-sig the Pure Blood<br> Yacht Club Donation address: </li>  
+
+          <li class"list">NFT Pure Blood Yacht Club Passports</li>
+            
+          <li class"list">Pure Blood Yacht Club merch</li>
+          <li class"list"> Get Pure Blood Yacht Club hash tags trending on Twitter
+          </li>
+          
+      </ul>
+        <button class="btn" oneclick"myFunction"()>Read More</button>
+      </div>
+  
+      <div class="container">
+        <h1 class="name">Q3 2021</h1>
+        <ul class "description">
+          <li class"list">risk awareness campaigns (inc. flyers, banners + incentivised sharing)
+
+            <li class"list"> listed on major exchange(s)</li>
+            
+            <li class"list"> Build Pure Blood Yacht Club Tinder and Twitter alternatives</li>
+        
+        </ul>
+        <button class="btn" oneclick"myFunction"()>Read More</button>
+      </div>
+  </body>
+ 
+</html>
+
+
+ <script>

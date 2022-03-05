@@ -14,7 +14,6 @@ app.config.from_object(Config)
 db.init_app(app)
 
 app.register_blueprint(home)
-app.register_blueprint(register)
 
 Migrate(app, db)
 

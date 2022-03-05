@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template
 
-register = Blueprint('about',__name__,url_prefix='/register')
+register = Blueprint('register',__name__,url_prefix='/register')
 
 @register.route('/')
-def about():
+def register():
     return render_template('register/register.html')

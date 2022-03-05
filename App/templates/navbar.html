@@ -7,15 +7,20 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto mb-2 mb-md-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="{{url_for('home.index')}}">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="{{url_for('home.about')}}">About</a>
           </li>
          
             <li class="nav-item">
-            <a class="nav-link disabled">Roadmap</a>
+            <a class="nav-link" href="">Roadmap</a>
           </li>
+        </li>
+         
+        <li class="nav-item">
+        <a class="nav-link" href="{{url_for('home.register')}}">Register</a>
+      </li>
         </ul>
         
       </div>

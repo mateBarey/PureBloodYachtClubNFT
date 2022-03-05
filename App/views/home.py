@@ -10,3 +10,8 @@ def index():
 @home.route('/about')
 def about():
     return render_template('home/about.html')
+
+
+@home.route('/register')
+def register():
+    return render_template('home/register.html')
