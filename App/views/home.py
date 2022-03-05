@@ -15,3 +15,8 @@ def about():
 @home.route('/register')
 def register():
     return render_template('home/register.html')
+
+
+@home.route('/map')
+def map():
+    return render_template('home/map.html')
