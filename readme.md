@@ -9,3 +9,7 @@ as well as roadmap.
 For Posting polygon NFT's 
 Npm install hardhat  @openzepplin/contracts nft.storage dotenv @nomiclabs/hardhat-ethers
 npx hardhat
+Create hardhat.config.js
+Run the node scripts/store-asset.mjs
+npx hardcat run scripts/deploy-contract.mjs —network polygon_mumbai
+npx hardhat run scripts/mint-nft.mjs \—network polygon_mumbai
