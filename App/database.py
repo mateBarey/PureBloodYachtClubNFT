@@ -1,7 +1,7 @@
-from ..App import app, db
-from dotenv import load_dotenv
-load_dotenv()
+from pymongo import MongoClient
+from config import Config 
 
-with app.app_context():
-    db.drop_all()
-    db.create_all()
+client = MongoClient(Config.MONGO_DATABASE_URI)
+db = client.SimlarityDB
+
+users = db["Users"]

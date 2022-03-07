@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+
+.container{
+text-align: center;
+background-position: : center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 70px;
+color:black;
+flex-wrap: nowrap;
+}
+
+.container{
+flex-wrap: nowrap;
+background-position: center;
+align-items: center
+}
+.container card{
+    flex-wrap: nowrap;
+    background-position: center;
+    align-items: center
+    }
+.container h2{
+align-items:center;
+font-style: 'Inter',"sans-serif";
+font-size: 75px;
+}
+
+.container p{
+font-size: 35px
+
+}

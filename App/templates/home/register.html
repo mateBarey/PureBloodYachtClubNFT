@@ -27,16 +27,16 @@
                         <div class="form-items">
                             <h3>Register Today</h3>
                             <p>Fill in the data below.</p>
-                            <form class="requires-validation" novalidate>
+                            <form class="requires-validation" method = "POST" action="{{url_for('home.register')}}"novalidate>
         
                                 <div class="col-md-12">
-                                   <input class="form-control" type="text" name="name" placeholder="Email" required>
+                                   <input class="form-control" type="text" name="email" placeholder="Email" value="{{request.form['email']}}"required>
                                    <div class="valid-feedback">Email field is valid!</div>
                                    <div class="invalid-feedback">Email field cannot be blank!</div>
                                 </div>
         
                                 <div class="col-md-12">
-                                    <input class="form-control" type="email" name="email" placeholder="Eth Address" required>
+                                    <input class="form-control" type="email" name="eth_address" placeholder="Eth Address" value="{{request.form['eth_address']}}" required>
                                      <div class="valid-feedback">Eth Address field is valid!</div>
                                      <div class="invalid-feedback">Eth Address field cannot be blank!</div>
                                 </div>
@@ -46,7 +46,7 @@
         
         
                                <div class="col-md-12">
-                                  <input class="form-control" type="password" name="password" placeholder="Password" required>
+                                  <input class="form-control" type="password" name="password" placeholder="Password" value="{{request.form['password']}}" required>
                                    <div class="valid-feedback">Password field is valid!</div>
                                    <div class="invalid-feedback">Password field cannot be blank!</div>
                                </div> 

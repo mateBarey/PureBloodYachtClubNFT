@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+.container a{
+text-align: center;
+font-weight: bold ;
+font-family: 'Inter-700', sans-serif;
+padding: 40px;
+color:rgba(0,0,0,0,9);
+size: 75px;
+line-height: 20px;
+}
+
+.collapse a{
+font-family: 'Inter-700', sans-serif;
+color: rgba(0,0,0,0,9);
+font-size: 35px;
+}

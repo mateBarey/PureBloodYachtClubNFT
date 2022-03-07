@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
+
+#banner{
+    text-align: center;
+    background-image: url("pexels-mali-maeder-42091.jpg");
+    background-size:cover;
+    padding: 500px;
+    color: white;
+  }
+
+#banner2{
+text-align: center;
+background-position: : center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding: 70px;
+color:black;
+}
+
+#banner2 h1 {
+font-family: 'Courier';
+color: black;
+font-size: 40px;
+line-height: 58px;
+color: #111111
+}
+
+#banner2 h2 {
+font-family: 'Courier';
+font-size: 25px;
+color: #55595c
+}
+#banner2 ul {
+font-family: 'Courier';
+color: #55595c;
+font-size: 25px;
+}
+#footer{
+padding: 30px;
+background: rgb(30, 30, 30);
+color: lightgrey;
+}
+.card{
+padding: 50px;
+font-weight: lighter;
+}
+
+li span {
+  position: relative;
+  left: 30px;
+}

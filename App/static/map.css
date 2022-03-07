@@ -10,6 +10,9 @@
     color: var(--clr-gray);
   }
   
+  .banner{
+    align-items: center;
+  }
   .wrapper-flex {
     display: flex;
     flex-wrap: wrap;
